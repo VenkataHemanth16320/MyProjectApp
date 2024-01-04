@@ -5,4 +5,5 @@ resource "aws_instance" "JenkinsServer" {
   vpc_security_group_ids = [aws_security_group.web-traffic.id]
 
   tags = {
-    "Name" = "Jenkins-Server"
+    "Name" = "Jenkins-Server"}
+}
